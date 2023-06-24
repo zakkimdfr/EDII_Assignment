@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C325F4172A453B6300260C17 /* SimpleCrudMySQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4162A453B6300260C17 /* SimpleCrudMySQLApp.swift */; };
+		C325F4192A453B6300260C17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4182A453B6300260C17 /* ContentView.swift */; };
+		C325F41B2A453B6500260C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C325F41A2A453B6500260C17 /* Assets.xcassets */; };
+		C325F41E2A453B6500260C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C325F41D2A453B6500260C17 /* Preview Assets.xcassets */; };
+		C325F4282A453B6500260C17 /* SimpleCrudMySQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4272A453B6500260C17 /* SimpleCrudMySQLTests.swift */; };
+		C325F4322A453B6500260C17 /* SimpleCrudMySQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4312A453B6500260C17 /* SimpleCrudMySQLUITests.swift */; };
+		C325F4342A453B6500260C17 /* SimpleCrudMySQLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4332A453B6500260C17 /* SimpleCrudMySQLUITestsLaunchTests.swift */; };
+		C325F4412A453E3C00260C17 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4402A453E3C00260C17 /* Model.swift */; };
+		C325F4432A453F0A00260C17 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4422A453F0A00260C17 /* ViewModel.swift */; };
+		C325F4472A45477F00260C17 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F4462A45477F00260C17 /* NewUserView.swift */; };
+		C325F44C2A454BCF00260C17 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F44B2A454BCF00260C17 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C325F4242A453B6500260C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C325F40B2A453B6300260C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C325F4122A453B6300260C17;
+			remoteInfo = SimpleCrudMySQL;
+		};
+		C325F42E2A453B6500260C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C325F40B2A453B6300260C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C325F4122A453B6300260C17;
+			remoteInfo = SimpleCrudMySQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C325F4132A453B6300260C17 /* SimpleCrudMySQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCrudMySQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325F4162A453B6300260C17 /* SimpleCrudMySQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCrudMySQLApp.swift; sourceTree = "<group>"; };
+		C325F4182A453B6300260C17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C325F41A2A453B6500260C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C325F41D2A453B6500260C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C325F4232A453B6500260C17 /* SimpleCrudMySQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCrudMySQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325F4272A453B6500260C17 /* SimpleCrudMySQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCrudMySQLTests.swift; sourceTree = "<group>"; };
+		C325F42D2A453B6500260C17 /* SimpleCrudMySQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCrudMySQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325F4312A453B6500260C17 /* SimpleCrudMySQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCrudMySQLUITests.swift; sourceTree = "<group>"; };
+		C325F4332A453B6500260C17 /* SimpleCrudMySQLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCrudMySQLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C325F4402A453E3C00260C17 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C325F4422A453F0A00260C17 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C325F4462A45477F00260C17 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		C325F44B2A454BCF00260C17 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C325F44D2A454E1400260C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C325F4102A453B6300260C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F4202A453B6500260C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F42A2A453B6500260C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C325F40A2A453B6300260C17 = {
+			isa = PBXGroup;
+			children = (
+				C325F4152A453B6300260C17 /* SimpleCrudMySQL */,
+				C325F4262A453B6500260C17 /* SimpleCrudMySQLTests */,
+				C325F4302A453B6500260C17 /* SimpleCrudMySQLUITests */,
+				C325F4142A453B6300260C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C325F4142A453B6300260C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4132A453B6300260C17 /* SimpleCrudMySQL.app */,
+				C325F4232A453B6500260C17 /* SimpleCrudMySQLTests.xctest */,
+				C325F42D2A453B6500260C17 /* SimpleCrudMySQLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C325F4152A453B6300260C17 /* SimpleCrudMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				C325F44D2A454E1400260C17 /* Info.plist */,
+				C325F44A2A45495F00260C17 /* ViewModel */,
+				C325F4492A45495800260C17 /* Model */,
+				C325F4482A45495200260C17 /* View */,
+				C325F4162A453B6300260C17 /* SimpleCrudMySQLApp.swift */,
+				C325F41A2A453B6500260C17 /* Assets.xcassets */,
+				C325F41C2A453B6500260C17 /* Preview Content */,
+			);
+			path = SimpleCrudMySQL;
+			sourceTree = "<group>";
+		};
+		C325F41C2A453B6500260C17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C325F41D2A453B6500260C17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C325F4262A453B6500260C17 /* SimpleCrudMySQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4272A453B6500260C17 /* SimpleCrudMySQLTests.swift */,
+			);
+			path = SimpleCrudMySQLTests;
+			sourceTree = "<group>";
+		};
+		C325F4302A453B6500260C17 /* SimpleCrudMySQLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4312A453B6500260C17 /* SimpleCrudMySQLUITests.swift */,
+				C325F4332A453B6500260C17 /* SimpleCrudMySQLUITestsLaunchTests.swift */,
+			);
+			path = SimpleCrudMySQLUITests;
+			sourceTree = "<group>";
+		};
+		C325F4482A45495200260C17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4182A453B6300260C17 /* ContentView.swift */,
+				C325F44B2A454BCF00260C17 /* DetailView.swift */,
+				C325F4462A45477F00260C17 /* NewUserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C325F4492A45495800260C17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4402A453E3C00260C17 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C325F44A2A45495F00260C17 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C325F4422A453F0A00260C17 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C325F4122A453B6300260C17 /* SimpleCrudMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C325F4372A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQL" */;
+			buildPhases = (
+				C325F40F2A453B6300260C17 /* Sources */,
+				C325F4102A453B6300260C17 /* Frameworks */,
+				C325F4112A453B6300260C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCrudMySQL;
+			productName = SimpleCrudMySQL;
+			productReference = C325F4132A453B6300260C17 /* SimpleCrudMySQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C325F4222A453B6500260C17 /* SimpleCrudMySQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C325F43A2A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQLTests" */;
+			buildPhases = (
+				C325F41F2A453B6500260C17 /* Sources */,
+				C325F4202A453B6500260C17 /* Frameworks */,
+				C325F4212A453B6500260C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C325F4252A453B6500260C17 /* PBXTargetDependency */,
+			);
+			name = SimpleCrudMySQLTests;
+			productName = SimpleCrudMySQLTests;
+			productReference = C325F4232A453B6500260C17 /* SimpleCrudMySQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C325F42C2A453B6500260C17 /* SimpleCrudMySQLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C325F43D2A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQLUITests" */;
+			buildPhases = (
+				C325F4292A453B6500260C17 /* Sources */,
+				C325F42A2A453B6500260C17 /* Frameworks */,
+				C325F42B2A453B6500260C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C325F42F2A453B6500260C17 /* PBXTargetDependency */,
+			);
+			name = SimpleCrudMySQLUITests;
+			productName = SimpleCrudMySQLUITests;
+			productReference = C325F42D2A453B6500260C17 /* SimpleCrudMySQLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C325F40B2A453B6300260C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C325F4122A453B6300260C17 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C325F4222A453B6500260C17 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C325F4122A453B6300260C17;
+					};
+					C325F42C2A453B6500260C17 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C325F4122A453B6300260C17;
+					};
+				};
+			};
+			buildConfigurationList = C325F40E2A453B6300260C17 /* Build configuration list for PBXProject "SimpleCrudMySQL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C325F40A2A453B6300260C17;
+			productRefGroup = C325F4142A453B6300260C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C325F4122A453B6300260C17 /* SimpleCrudMySQL */,
+				C325F4222A453B6500260C17 /* SimpleCrudMySQLTests */,
+				C325F42C2A453B6500260C17 /* SimpleCrudMySQLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C325F4112A453B6300260C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325F41E2A453B6500260C17 /* Preview Assets.xcassets in Resources */,
+				C325F41B2A453B6500260C17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F4212A453B6500260C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F42B2A453B6500260C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C325F40F2A453B6300260C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325F4412A453E3C00260C17 /* Model.swift in Sources */,
+				C325F44C2A454BCF00260C17 /* DetailView.swift in Sources */,
+				C325F4192A453B6300260C17 /* ContentView.swift in Sources */,
+				C325F4472A45477F00260C17 /* NewUserView.swift in Sources */,
+				C325F4432A453F0A00260C17 /* ViewModel.swift in Sources */,
+				C325F4172A453B6300260C17 /* SimpleCrudMySQLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F41F2A453B6500260C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325F4282A453B6500260C17 /* SimpleCrudMySQLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C325F4292A453B6500260C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325F4322A453B6500260C17 /* SimpleCrudMySQLUITests.swift in Sources */,
+				C325F4342A453B6500260C17 /* SimpleCrudMySQLUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C325F4252A453B6500260C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C325F4122A453B6300260C17 /* SimpleCrudMySQL */;
+			targetProxy = C325F4242A453B6500260C17 /* PBXContainerItemProxy */;
+		};
+		C325F42F2A453B6500260C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C325F4122A453B6300260C17 /* SimpleCrudMySQL */;
+			targetProxy = C325F42E2A453B6500260C17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C325F4352A453B6500260C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C325F4362A453B6500260C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C325F4382A453B6500260C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCrudMySQL/Preview Content\"";
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleCrudMySQL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C325F4392A453B6500260C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCrudMySQL/Preview Content\"";
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleCrudMySQL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C325F43B2A453B6500260C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCrudMySQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleCrudMySQL";
+			};
+			name = Debug;
+		};
+		C325F43C2A453B6500260C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCrudMySQL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleCrudMySQL";
+			};
+			name = Release;
+		};
+		C325F43E2A453B6500260C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCrudMySQL;
+			};
+			name = Debug;
+		};
+		C325F43F2A453B6500260C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY4LC4DV9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zakkimudhoffar.SimpleCrudMySQLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCrudMySQL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C325F40E2A453B6300260C17 /* Build configuration list for PBXProject "SimpleCrudMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325F4352A453B6500260C17 /* Debug */,
+				C325F4362A453B6500260C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C325F4372A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325F4382A453B6500260C17 /* Debug */,
+				C325F4392A453B6500260C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C325F43A2A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325F43B2A453B6500260C17 /* Debug */,
+				C325F43C2A453B6500260C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C325F43D2A453B6500260C17 /* Build configuration list for PBXNativeTarget "SimpleCrudMySQLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325F43E2A453B6500260C17 /* Debug */,
+				C325F43F2A453B6500260C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C325F40B2A453B6300260C17 /* Project object */;
+}
